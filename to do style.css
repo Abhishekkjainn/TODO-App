@@ -1,0 +1,118 @@
+*{
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+body{
+    background-color: skyblue;
+    margin: 0;
+    padding: 0px;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(53, 52, 52);
+    overflow-y: scroll;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0) 0px 5px 15px;
+    position: fixed;
+    top: 120px;
+    left: 820px;
+}
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+.inp{
+    background-color: rgb(206, 206, 206);
+    padding: 15px;
+    border: 0px;
+    border-radius: 20px;
+    width: 300px;
+    position: fixed;
+    top: 150px;
+    left: 840px;
+    font-size: large;
+}
+.inp:focus{
+    background-color: rgb(159, 159, 159);
+}
+#push{
+    padding: 0px;
+    width: 100px;
+    height: 50px;
+    border: 0px;
+    border-radius:20px;
+    position: fixed;
+    left: 1200px;
+    top: 150px;
+    font-size: larger;
+}
+#push:hover{
+    background-color: rgb(0, 249, 0);
+    transition: 1s;
+}
+#tasks{
+    padding: 0px;
+    width: 450px;
+    height: 350px;
+    background-color: purple;
+    position: fixed;
+    top: 240px;
+    left: 845px;
+    border-radius: 20px;
+    overflow-y: scroll;
+}
+.task{
+    background-color:rgb(255, 255, 255);
+    margin: 7px;
+    border-radius: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: larger;
+    background-color: #d4d1d1;
+    padding: 0.3em 0.6em;
+    margin-top: 0.6em;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+    border: none;
+}
+.task span{
+    background-color:none;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.task button{
+    color: rgb(74, 74, 74);
+    padding: 0.8em 0;
+    width: 2.8em;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.delete {
+    background-color: #fb3b3b;
+}
+.edit {
+    background-color: #0b87ff;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.completed {
+    text-decoration: line-through;
+    color: red;
+}
+.text{
+    font-size: xxx-large;
+    transform: rotate(270deg);
+    position: fixed;
+    top: 300px;
+    left:0px;
+    letter-spacing: 5px;
+
+
+}
+
+  
